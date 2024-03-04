@@ -7,11 +7,12 @@ board = [
     [4,0,2,0,0,0,0,0,0],
     [0,0,9,0,8,0,0,0,0],
     [0,0,5,0,0,0,1,4,0],
-    [0,0,0,0,6,4,0,8,0 ]
+    [0,0,0,0,6,4,0,8,0]
 ]
 
 
 def solve(bo):
+    print(bo)
     find = find_empty(bo)
     if not find: 
         return True
